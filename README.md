@@ -3,6 +3,12 @@ Node.js + Ajax 实现的带进度反馈的上传功能
 
 ![image](https://github.com/hwaphon/Uploader/blob/master/demo.gif)
 
+你可以利用以下命令将项目复制到本地并且运行查看效果
+
+	git clone https://github.com/hwaphon/Uploader.git
+	cd Uploader
+	node app.js
+
 实现上传进度更新的核心代码如下:
 
 		xhr.upload.onprogress = function(event) {
