@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 640px;
+	height: 480px;
+	margin: 24px auto;
+	text-align: center;
+	padding-top: 48px;
+}
+
+#progressbar-container {
+	width: 320px;
+	height: 24px;
+	margin: 12px auto;
+	border: 1px solid #c2e9fb;
+	position: relative;
+}
+
+#progressbar {
+	height: 100%;
+	width: 0%;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+	line-height: 24px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -100;
+}
+
+#progress-text {
+	color: #3B577D;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#upload-file {
+	display: none;
+}
+
+#upload {
+	padding: 12px 48px;
+	color: #fff;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	outline: none;
+}
